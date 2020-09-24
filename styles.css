@@ -1,0 +1,47 @@
+*{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    padding: 0 20px 20px;
+}
+.driver{
+    background-color: rgb(209, 209, 209);
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.driver:nth-child(odd){
+    background-color: rgb(233, 233, 233);
+}
+.driver a{
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+}
+.driver:nth-child(odd) a{
+    color: rgb(0, 177, 0);
+}
+.driver a:hover{
+    color: rgb(69, 56, 255);
+}
+.driver p{
+    margin: 10px 0 0;
+}
+#drivers{
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    grid-gap: .5em;
+}
+h1{
+    padding: .3em .5em;
+    background-color: rgb(209, 209, 209);
+    position: relative;
+    margin: 10px auto;
+    width: fit-content;
+    border-radius: 10px;
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
