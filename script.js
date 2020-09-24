@@ -1,4 +1,4 @@
-let url = 'http://ergast.com/api/f1/drivers.json?limit=1000&offset=0';
+let url = 'https://ergast.com/api/f1/drivers.json?limit=1000&offset=0';
 
 fetch(url)
     .then(res => res.json())
