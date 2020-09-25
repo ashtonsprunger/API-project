@@ -11,11 +11,11 @@ fetch(url)
 
 function displayResults(json){
     // document.getElementById('drivers').innerHTML = '';
-    console.log(json);
+    // console.log(json);
     let drivers = json.MRData.DriverTable.Drivers;
 
     let addTo = document.getElementById('drivers');
-    console.log(drivers);
+    // console.log(drivers);
 
     for(let i = 0; i < drivers.length; i++){
         // console.log(i);
